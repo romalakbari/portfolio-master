@@ -1,0 +1,54 @@
+Arguments: 
+  /opt/local/bin/node /opt/local/libexec/yarn/bin/yarn.js install
+
+PATH: 
+  /opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/users/newowner/.bitnami/stackman/machines/xampp/volumes/root/htdocs
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.19.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: Client network socket disconnected before secure TLS connection was established
+      at connResetException (node:internal/errors:705:14)
+      at TLSSocket.onConnectEnd (node:_tls_wrap:1594:19)
+      at TLSSocket.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "developer-portfolio-starter-code",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "eslint": "8.36.0",
+      "eslint-config-next": "13.2.4",
+      "framer-motion": "^10.6.0",
+      "next": "13.2.4",
+      "react": "18.2.0",
+      "react-dom": "18.2.0"
+    },
+    "devDependencies": {
+      "autoprefixer": "^10.4.14",
+      "postcss": "^8.4.23",
+      "tailwindcss": "^3.3.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
