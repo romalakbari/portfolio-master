@@ -5,7 +5,7 @@ import LiIcon from "./LiIcon";
 
 const Detail = ({position, company, companyLink, time, address, work})=>{
     const ref = useRef(null);
-    return <li ref={ref} className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between'>
+    return <li ref={ref} className='my-8 first:mt-0 last:mb-0 w-[60%] md:w-[100%] sm:w-[100%] mx-auto flex flex-col items-center justify-between'>
         
         <LiIcon reference ={ref} />
 
@@ -40,11 +40,11 @@ const  Experience =()=>{
     return (
         <div className ='my-64'>
 
-            <h2 className ='font-bold text-8xl  mb-32 w-full text-center'>Experience</h2>
+            <h2 className ='font-bold text-8xl  mb-32 w-full text-center md:text-6xl sm:text-6xl'>Experience</h2>
             <div ref={ref} className ='w-[75%] mx-auto relative'>
                 <motion.div
                 style ={{scaleY: scrollYProgress}}
-                className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top  dark:bg-light' />
+                className='absolute left-9 md:left-[-5%] sm:left-[-5%]  top-0 w-[4px] h-full bg-dark origin-top  dark:bg-light' />
                 <ul className ='w-full flex flex-col items-start justify-between ml-4  '>
                 <Detail
                     position="Remote Web Developer" company="AUQ Company"
