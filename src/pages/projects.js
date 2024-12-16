@@ -101,30 +101,31 @@ const projects =()=>{
     className='mb-16'
     />
     
-    <div className ='grid grid-cols-12 gap-24 gap-y-32'>
+    <div className="grid grid-cols-12 md:grid-cols-2  gap-24 gap-y-32 md:gap-y-10 sm:gap-y-10">
 
-        <div className='col-span-6'>
-            <Project 
-                title ='Billion Management System'
-                img ={project1}
-                summery='Billion is a management system for businesses and warehouses that processes financial data, generates reports, and supports multiple companies and users. It works online and offline, in Dari and English, using Laravel, JavaScript, AJAX, Bootstrap, and MySQL.'
-                link='#'
-                github='https://github.com/romalakbari/billion-'
+        <div className="col-span-6 sm:col-span-2">
+            <Project
+                title="Billion Management System"
+                img={project1}
+                summery="Billion is a management system for businesses and warehouses that processes financial data, generates reports, and supports multiple companies and users. It works online and offline, in Dari and English, using Laravel, JavaScript, AJAX, Bootstrap, and MySQL."
+                link="https://github.com/romalakbari/billion-"
+                github="https://github.com/romalakbari/billion-"
                 type="Featured Project"
             />
         </div>
        
-        <div className='col-span-6'>
-            <Project 
-                title ='Global Job Portal Management'
-                img ={project2}
-                summery='Azizijobs is an international job portal connecting job seekers with employers globally, offering services like job posting, bid announcements, and smart job matching. It supports 251 countries using technologies like Laravel, JavaScript, AJAX, Bootstrap, and MySQL.'
-                link='https://azizijobs.com'
-                github='#'
+        <div className="col-span-6 sm:col-span-2">
+            <Project
+                title="Global Job Portal Management"
+                img={project2}
+                summery="Azizijobs is an international job portal connecting job seekers with employers globally, offering services like job posting, bid announcements, and smart job matching. It supports 251 countries using technologies like Laravel, JavaScript, AJAX, Bootstrap, and MySQL."
+                link="https://azizijobs.com"
+                github="#"
                 type="Featured Project"
             />
         </div>
-        <div className='col-span-6'>
+
+         <div className="col-span-6 sm:col-span-2">
             <Project 
                 title ='Azizi Jobs LLC Website'
                 img ={project3}
@@ -135,8 +136,8 @@ const projects =()=>{
             />
         </div>
 
-        <div className='col-span-6'>
-            <Project 
+         <div className="col-span-6 sm:col-span-2">
+             <Project 
                 title ='Peyawa Website'
                 img ={project4}
                 summery='Peyawa.com is an eCommerce platform offering a variety of products and services. It provides an easy-to-use online shopping experience, utilizing technologies like Laravel, JavaScript, AJAX, Bootstrap, and MySQL for smooth functionality and performance.'
@@ -146,24 +147,9 @@ const projects =()=>{
             />
         </div>
 
-       
+   
+</div>
 
-        {/*
-        <div className='col-span-12'>
-            <FeatureProject 
-                title ='Online News Portal'
-                img ={project3}
-                summery='Online News App using Laravel, Bootstrap, Javascript. 
-                Where all latest news and activity list.'
-                link='https://ayaso.org/'
-                github='#'
-                type="Featured Project"
-            />
-        </div>
-            */}
-       
-        
-    </div>
 </Layout>
 </main>
     
