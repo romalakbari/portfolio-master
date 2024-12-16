@@ -93,7 +93,7 @@ const about =()=>{
                 </div>
 
 
-                <div className='col-span-2 flex flex-col items-end justify-between'>
+                <div className='col-span-2 md:col-span-6 sm:col-span-6 flex flex-col items-end justify-between'>
 
                   <div className='flex flex-col items-end justify-center'>
                     <span className='inline-block text-7xl font-bold'>
